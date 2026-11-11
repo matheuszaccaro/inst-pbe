@@ -11,7 +11,7 @@ $metodo = $_SERVER["REQUEST_METHOD"];
 $corpo = json_decode(file_get_contents("php://input"), true) ?? [];
 
 function teste(){
-    echo json_encode(["mensagem" => "Back-end da transportadora respondendo!"]);
+    echo json_encode(["mensagem" => "Back-end do instagram respondendo!"]);
     exit;
 }
 //Usuário
